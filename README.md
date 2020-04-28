@@ -183,15 +183,16 @@ Authors : Baptiste Hardrick & David Jaquet
     - Datas stored in Cloud Firestore : Size of the datas stored
     - Datas sent to the API Cloud Firestore : Size of the elements stored
     - Datas received from Cloud Firestore : Size of the element received from Cloud Firestore. It is the result of the request. The server can send a status `OK` for example.
-    - Cloud Firestore entity fetch ops : 
-    - Cloud Firestore entity writes ops :
-    - Cloud Firestore index write ops :
-    - Cloud Firestore network egresse :
-    - Cloud Storage class B ops :
-    - Cloud Storage class A ops :
-    - Cloud Storage network (output) - America and EMEA :
+    - Cloud Firestore entity fetch ops : The number of queries or getch calls to the data store
+    - Cloud Firestore entity writes ops : The number of write operations on the data store
+    - Cloud Firestore index write ops : Number of indexes created by the datastore when an entity is created and no index is provided
+    - Cloud Firestore network egresse : Traffic outgoing the Google internal network
     
-    ![Sockage Quota](C:\Users\David\Desktop\HEIG\CLD\GAE_01\assets\quotaStock.jpg)
+    ![Sockage Quota](./assets/quotaStock.jpg)
     For both screenshots, it is important to notice that there is no daily quota and no quota by minute. It is because our instances are running since least 24 hours.
+    We can find below the billing of the transaction. As we can see, we have no cost. This is because the the bill is not updated. The bill will be update 17 hours after the moment where the screenshot was taken. We firstly thought that the lack of cost was due to a insufficient usage of the resources, but the notice at the top of the screenshot change our mind.
+    ![Bill](./assets/Bill.jpg)
 
 - Let's suppose you become suspicious that the algorithm for the automatic scaling of instances is not working correctly. Imagine a way in which the algorithm could be broken. Which measures shown in the console would you use to detect this failure?
+
+  - On the left side pannel, under App Engine, we can see that there is an Instances board. By clicking on it, we can see if autoscaled instances were created and correlate it with a time when there was a huge load. We can then conclude that the autoscaling algorithm is not working if no instance was created during a high load period.
