@@ -6,11 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abbf0363-0844-4dfa-8728-1d6cb16b66b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="afb446a2-4ce6-48d9-bb06-cb8938d02ac3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/LabGAE.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabGAE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LabGAE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LabGAE-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/LabGAE-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LabGAE-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/LabGAE-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LabGAE-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/LabGAE-1.0-SNAPSHOT/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,39 +24,48 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="jsf" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1b7mosWIYlLy0ScYfmRjUqcMgno" />
+  <component name="ProjectId" id="1b8TWehesgPJaqeq7nqdDUVTs30" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ACTIVE_CLOUD_PROJECT_ACCOUNT" value="baptiste.hardrick@gmail.com" />
-    <property name="ACTIVE_CLOUD_PROJECT_ID" value="labgae-275514" />
+    <property name="ACTIVE_CLOUD_PROJECT_ACCOUNT" value="batach31@gmail.com" />
+    <property name="ACTIVE_CLOUD_PROJECT_ID" value="labgae-275513" />
     <property name="ACTIVE_CLOUD_PROJECT_NAME" value="labgae" />
-    <property name="ACTIVE_CLOUD_PROJECT_NUMBER" value="113519000600" />
+    <property name="ACTIVE_CLOUD_PROJECT_NUMBER" value="669609364527" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowKubernetes Explorer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager" selected="Google App Engine Deployment.Google App Engine Deployment">
     <configuration name="Google Cloud Debug" type="GCPDebug" factoryName="Google Cloud Debugger">
       <method v="2" />
     </configuration>
     <configuration name="Google App Engine Deployment" type="gcp-app-engine-deploy" factoryName="Google App Engine Deployment" server-name="Google App Engine">
-      <deployment type="maven-build-source" name="LabGAE" project="labgae-275514" version="auto">
-        <settings cloudProjectName="labgae-275514" deployAllConfigs="true" environment="APP_ENGINE_STANDARD" googleUsername="baptiste.hardrick@gmail.com" version="" />
+      <deployment type="maven-build-source" name="LabGAE" project="labgae-275513" version="auto">
+        <settings cloudProjectName="labgae-275513" deployAllConfigs="true" environment="APP_ENGINE_STANDARD" googleUsername="batach31@gmail.com" version="" />
       </deployment>
       <method v="2">
         <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="package" />
@@ -64,7 +77,7 @@
         <artifact>LabGAE:war exploded</artifact>
       </server-settings>
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="55835" />
+        <option name="DEBUG_PORT" value="50330" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -129,16 +142,15 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="abbf0363-0844-4dfa-8728-1d6cb16b66b0" name="Default Changelist" comment="" />
-      <created>1587991683972</created>
+      <changelist id="afb446a2-4ce6-48d9-bb06-cb8938d02ac3" name="Default Changelist" comment="" />
+      <created>1588012753158</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587991683972</updated>
-      <workItem from="1587991685406" duration="3014000" />
-      <workItem from="1587996368413" duration="1429000" />
-      <workItem from="1587998355044" duration="35000" />
-      <workItem from="1587998404044" duration="58000" />
-      <workItem from="1588003759991" duration="951000" />
+      <updated>1588012753158</updated>
+      <workItem from="1588012754995" duration="329000" />
+      <workItem from="1588013169646" duration="7530000" />
+      <workItem from="1588077282410" duration="3256000" />
+      <workItem from="1588081506379" duration="359000" />
     </task>
     <servers />
   </component>
@@ -146,61 +158,37 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="282" y="0" key="#Google_App_Engine" timestamp="1587993312582">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1588012868235">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="282" y="0" key="#Google_App_Engine/0.0.1280.680@0.0.1280.680" timestamp="1587993312582" />
-    <state x="233" y="0" key="#Plugins" timestamp="1587998386889">
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1588012868235" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588015661319">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="0" key="#Plugins/0.0.1280.680@0.0.1280.680" timestamp="1587998386889" />
-    <state x="143" y="0" key="#Project_Structure" timestamp="1587991821831">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1588015661319" />
+    <state x="449" y="221" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1588013065037">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="143" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1587991821831" />
-    <state x="145" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588005049381">
+    <state x="449" y="221" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680@0.0.1280.680" timestamp="1588013065037" />
+    <state width="845" height="357" key="GridCell.Tab.0.bottom" timestamp="1588079984162">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="145" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1588005049381" />
-    <state x="449" y="221" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1587991976464">
+    <state width="845" height="357" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588079984162" />
+    <state width="845" height="357" key="GridCell.Tab.0.center" timestamp="1588079984162">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="449" y="221" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680@0.0.1280.680" timestamp="1587991976464" />
-    <state x="397" y="22" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1587992024196">
+    <state width="845" height="357" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588079984162" />
+    <state width="845" height="357" key="GridCell.Tab.0.left" timestamp="1588079984162">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="397" y="22" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1280.680@0.0.1280.680" timestamp="1587992024196" />
-    <state width="845" height="163" key="GridCell.Tab.0.bottom" timestamp="1587996352809">
+    <state width="845" height="357" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588079984162" />
+    <state width="845" height="357" key="GridCell.Tab.0.right" timestamp="1588079984162">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="845" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587996352809" />
-    <state width="845" height="163" key="GridCell.Tab.0.center" timestamp="1587996352809">
+    <state width="845" height="357" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588079984162" />
+    <state x="221" y="84" key="IDE.errors.dialog" timestamp="1588015739555">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="845" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587996352809" />
-    <state width="845" height="163" key="GridCell.Tab.0.left" timestamp="1587996352809">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="845" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587996352809" />
-    <state width="845" height="163" key="GridCell.Tab.0.right" timestamp="1587996352809">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="845" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587996352809" />
-    <state x="221" y="84" key="IDE.errors.dialog" timestamp="1588005030902">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="221" y="84" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1588005030902" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1587992453281">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587992453281" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1587992258912">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1587992258912" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1587992262972">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1587992262972" />
+    <state x="221" y="84" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1588015739555" />
   </component>
 </project>
